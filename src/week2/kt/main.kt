@@ -3,7 +3,7 @@ package week2.kt
 import java.util.Scanner
 
 fun main() {
-    val scanner = Scanner(source = System.`in`)
+    val scanner = Scanner( System.`in`)
 
     println("- - - APLIKASI PBM UMN - - - ")
 
@@ -22,7 +22,7 @@ fun main() {
         print("masukkan Jurusan: ")
         val major = scanner.nextLine()
 
-        val s1 = student(name, nim, major)
+        val s1 = student(name, nim, major = major)
         println("Status: pendaftaran selesai.")
     }
 

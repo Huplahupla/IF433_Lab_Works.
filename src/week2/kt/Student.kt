@@ -1,6 +1,6 @@
 package week2.kt
 
-class student (val name: String, val nim: String, var major: String) {
+class student (val name: String, val nim: String, var major: String, var gpa: Double = 0.0) {
 
 
     constructor(name: String, nim: String) : this(name, nim, major="Non-Matriculated") {
