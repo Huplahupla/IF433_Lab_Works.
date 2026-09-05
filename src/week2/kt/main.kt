@@ -25,4 +25,5 @@ fun main() {
         val s1 = student(name, nim, major)
         println("Status: pendaftaran selesai.")
     }
+
 }

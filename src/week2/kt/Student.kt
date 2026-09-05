@@ -1,6 +1,12 @@
 package week2.kt
 
-class student (val name: string, val nim: string, var major: string) {
+class student (val name: String, val nim: String, var major: String) {
+
+
+    constructor(name: String, nim: String) : this(name, nim, major="Non-Matriculated") {
+        println("LOG: Menggunakan constructor jalur umum (Tanpa Jurusan).")
+    }
+
     init {
         if(nim.length != 5) {
             println("WARNING: Objek tercipta dengan NIM ($nim) yang tidak valid!")
