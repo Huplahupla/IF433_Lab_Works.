@@ -14,4 +14,10 @@ fun main() {
     pedang.damage = -50
     pedang.damage = 9999
     println("Tier Pedang: ${pedang.tier}")
+
+    // 3. Pengujian Player (Task 2)
+    println("\n--- Test Task 2: Player ---")
+    val player1 = player("Albert")
+    player1.addXp(50)
+    player1.addXp(60)
 }

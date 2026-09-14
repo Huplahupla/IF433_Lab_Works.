@@ -1,6 +1,6 @@
 package week03
 
-class Player(var username: String) {
+class player(var username: String) {
     private var xp: Int = 0
 
     val level: Int
