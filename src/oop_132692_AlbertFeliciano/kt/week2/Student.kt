@@ -1,4 +1,4 @@
-package week2.kt
+package oop_132692_AlbertFeliciano.kt.week2
 
 class student (val name: String, val nim: String, var major: String, var gpa: Double = 0.0) {
 

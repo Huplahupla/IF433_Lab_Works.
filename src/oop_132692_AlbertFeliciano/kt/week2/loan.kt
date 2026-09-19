@@ -1,4 +1,4 @@
-package week2.kt
+package oop_132692_AlbertFeliciano.kt.week2
 
 import java.util.Scanner
 

@@ -1,4 +1,4 @@
-package week4.kt
+package oop_132692_AlbertFeliciano.kt.week4
 
 open class `car`(brand: String, val numberOfDoors: Int) : vehicle(brand) {
     fun openTrunk() {

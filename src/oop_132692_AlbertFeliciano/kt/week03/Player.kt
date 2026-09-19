@@ -1,4 +1,4 @@
-package week03
+package oop_132692_AlbertFeliciano.kt.week03
 
 class player(var username: String) {
     private var xp: Int = 0

@@ -1,4 +1,4 @@
-package week03
+package oop_132692_AlbertFeliciano.kt.week03
 
 class weapon(val name: String) {
     var damage: Int = 0

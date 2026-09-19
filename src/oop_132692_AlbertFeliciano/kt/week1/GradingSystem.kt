@@ -1,4 +1,4 @@
-package week1.kt
+package oop_132692_AlbertFeliciano.kt
 
 fun main() {
     val name: String = "John Thor"

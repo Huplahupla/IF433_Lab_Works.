@@ -1,4 +1,4 @@
-package week4.kt
+package oop_132692_AlbertFeliciano.kt.week4
 
 open class vehicle(val brand: String) {
     var speed: Int = 0

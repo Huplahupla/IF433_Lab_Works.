@@ -1,4 +1,4 @@
-package week4.kt
+package oop_132692_AlbertFeliciano.kt.week4
 
 fun  main(){
     println("--- Testing Vehicle ---")
@@ -7,7 +7,7 @@ fun  main(){
     generalvehicle.accelerate()
 
     println("\n--- Testing Car ---")
-    val myCar =`Car.kt`(brand = "Toyota", numberOfDoors = 4)
+    val myCar =`car`(brand = "Toyota", numberOfDoors = 4)
     myCar.openTrunk()
     myCar
     myCar.accelerate()
