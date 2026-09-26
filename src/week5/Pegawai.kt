@@ -1,5 +1,5 @@
 package week5
 
-abstract class pegawai (val nama:String){
-    abstract fun pekerja()
+abstract class Pegawai (val nama: String){
+    abstract fun bekerja()
 }
