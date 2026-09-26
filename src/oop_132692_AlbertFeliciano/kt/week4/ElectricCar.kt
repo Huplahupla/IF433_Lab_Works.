@@ -1,9 +1,9 @@
-<<<<<<< HEAD:src/week4/kt/ElectricCar.kt
+
 package week4.kt
 
 class electricCar(brand: String, numberOfDoors: Int, val batteryCapacity: Int) : car(brand, numberOfDoors) {
 
-=======
+
 package oop_nim_albert.week04
 
 import oop_132692_AlbertFeliciano.kt.week4.car
