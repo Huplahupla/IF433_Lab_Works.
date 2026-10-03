@@ -1,6 +1,7 @@
 package oop_132692_AlbertFeliciano.kt.week4
 
-open class `car`(brand: String, val numberOfDoors: Int) : vehicle(brand) {
+open class Car(brand: String, val numberOfDoors: Int) : Vehicle(brand) {
+
     fun openTrunk() {
         println("Bagasi mobil $brand dengan $numberOfDoors pintu dibuka.")
     }
@@ -11,6 +12,6 @@ open class `car`(brand: String, val numberOfDoors: Int) : vehicle(brand) {
 
     override fun accelerate() {
         super.accelerate()
-        println("Mobil $brand dengan menggunakan transmisi gigi untuk menambah kecepatan")
+        println("Mobil $brand menggunakan transmisi gigi untuk menambah kecepatan.")
     }
 }

@@ -1,15 +1,14 @@
 package oop_132692_AlbertFeliciano.kt.week4
 
-open class vehicle(val brand: String) {
+open class Vehicle(val brand: String) {
     var speed: Int = 0
 
+    open fun accelerate() {
+        speed += 10
+        println("$brand melaju. Kecepatan: $speed km/jam")
+    }
 
-open fun accelerate(){
-    speed += 10
-    println("$brand melaju. kecepatan:$speed km/jam")
-}
-
-    open fun honk(){
-    println("beep beep")
+    open fun honk() {
+        println("Beep beep!")
     }
 }
