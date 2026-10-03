@@ -1,4 +1,4 @@
-package week5
+package oop_132692_AlbertFeliciano.kt.week5
 
 class CreditCard(accountName: String, val limit: Double) : PaymentMethod(accountName) {
     var usedAmount: Double = 0.0

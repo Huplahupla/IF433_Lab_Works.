@@ -1,4 +1,4 @@
-package week5
+package oop_132692_AlbertFeliciano.kt.week5
 
 fun main() {
     val myEWallet = EWallet("Dompet Digital", 50000.0)
