@@ -5,5 +5,5 @@ interface Camera{
 }
 
 interface Phone {
-    fun turnOn() {println('Sinyal seluler mencari jaringan.')}
+    fun turnOn() {println("Sinyal seluler mencari jaringan.")}
 }

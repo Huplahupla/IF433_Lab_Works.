@@ -10,4 +10,7 @@ abstract class Watch {
     interface Rechargeable{
         fun chargeBattery()
     }
+
+    abstract fun connectToBluetooth()
+    abstract fun chargeBattery()
 }

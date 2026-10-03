@@ -1,5 +1,7 @@
 package oop_132692_AlbertFeliciano.kt.week6
 
+import Smartwatch
+
 fun processCheckout(method: PaymentMethod, amount: Double){
     println("-> Memulai checkout ...")
     method.pay(amount)
