@@ -1,5 +1,3 @@
-package oop_132692_AlbertFeliciano.kt.week6
-
 package oop_00000132692_albertfeliciano.week06
 
 class SmartLamp(
