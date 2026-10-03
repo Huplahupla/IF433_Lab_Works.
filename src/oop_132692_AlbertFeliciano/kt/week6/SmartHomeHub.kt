@@ -20,11 +20,11 @@ class SmartHomeHub {
     fun activateSecurityMode() {
         println("\n--- Mengaktifkan Mode Keamanan ---")
         for (device in devices) {
-            // Deteksi perangkat Recordable
+            // Lakukan iterasi dan cek jika perangkat adalah Recordable
             if (device is Recordable) {
                 device.startRecord()
             }
-            // Deteksi perangkat SmartSpeaker menggunakan Smart Casting
+            // Jika terdeteksi sebagai SmartSpeaker, lakukan smart casting dan panggil playMusic
             if (device is SmartSpeaker) {
                 device.playMusic("Sirine Peringatan")
             }
